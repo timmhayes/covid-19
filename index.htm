@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COVID-19 Sunburst Chart</title>
+  <style>
+    html, body {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+    #chart {
+      height: calc(100vh - 60px);
+    }
+    h1, footer {
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0.25rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    footer {
+
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0
+    }
+    footer a {
+      color: rgb(172, 194, 255);
+    }
+  </style>
+</head>
+<body>
+  <h1>COVID-19 Cases by Region and Country</h1>
+  <div id="chart"></div>
+  <footer>Based on the <a href="https://github.com/CSSEGISandData/COVID-19">2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE</a></footer>
+  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+  <script src="script.js"></script>
+</body>
+</html>
