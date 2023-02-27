@@ -71,7 +71,6 @@ Ethiopia,ET,ETH,231,ISO 3166-2:ET,Africa,Eastern Africa,2,14
 Finland,FI,FIN,246,ISO 3166-2:FI,Europe,Northern Europe,150,154
 Fiji,FJ,FJI,242,ISO 3166-2:FJ,Oceania,Melanesia,9,54
 Falkland Islands (Malvinas),FK,FLK,238,ISO 3166-2:FK,Americas,South America,19,5
-Micronesia (Federated States of),FM,FSM,583,ISO 3166-2:FM,Oceania,Micronesia,9,57
 Faroe Islands,FO,FRO,234,ISO 3166-2:FO,Europe,Northern Europe,150,154
 France,FR,FRA,250,ISO 3166-2:FR,Europe,Western Europe,150,155
 Gabon,GA,GAB,266,ISO 3166-2:GA,Africa,Middle Africa,2,17
@@ -139,6 +138,7 @@ Morocco,MA,MAR,504,ISO 3166-2:MA,Africa,Northern Africa,2,15
 Monaco,MC,MCO,492,ISO 3166-2:MC,Europe,Western Europe,150,155
 Moldova,MD,MDA,498,ISO 3166-2:MD,Europe,Eastern Europe,150,151
 Montenegro,ME,MNE,499,ISO 3166-2:ME,Europe,Southern Europe,150,39
+Micronesia,FM,FSM,583,ISO 3166-2:FM,Oceania,Micronesia,009,057	
 Saint Martin (French part),MF,MAF,663,ISO 3166-2:MF,Americas,Caribbean,19,29
 Madagascar,MG,MDG,450,ISO 3166-2:MG,Africa,Eastern Africa,2,14
 Marshall Islands,MH,MHL,584,ISO 3166-2:MH,Oceania,Micronesia,9,57
@@ -251,3 +251,5 @@ Zimbabwe,ZW,ZWE,716,ISO 3166-2:ZW,Africa,Eastern Africa,2,14
 Kosovo,XK,UNK,383,,Europe,Southern Europe,150,39
 Diamond Princess,,,,,N/A,Cruise Ships,,
 MS Zaandam,,,,,N/A,Cruise Ships,,
+Summer Olympics 2020,,,,,N/A,Other,,
+Winter Olympics 2022,,,,,N/A,Other,,
