@@ -22,6 +22,8 @@
     covidData.forEach(record => {
       const matchingCountry = countries.find(country => country['country'] === record['Country/Region'])
       if (matchingCountry) {
+        // disambiguate the parent region of Micronesia from the country of Micronesia
+        if (record['Country/Region'] === 'Micronesia') record['Country/Region'] = 'Micronesia (Federated States of)'
         record.continent = matchingCountry.continent
         record.sub_region = matchingCountry.sub_region
       } else {
